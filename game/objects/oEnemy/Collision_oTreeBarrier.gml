@@ -1,8 +1,9 @@
-if (oEnemy.x > room_width/2)
+if (place_meeting(x, y, oTreeBarrier)) and (x < room_width/2)
 {
-	object_set_sprite(oEnemy, sDireita_tocha_ataque);
+	sprite_index = sDireita_tocha_ataque;
 }
-else
+else if (place_meeting(x, y, oTreeBarrier)) and (x > room_width/2)
 {
-	object_set_sprite(oEnemy, sEsquerda_tocha_ataque);
+	sprite_index = sEsquerda_tocha_ataque;
 }
+
