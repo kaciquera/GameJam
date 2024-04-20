@@ -18,3 +18,13 @@ else
 {	
 	sprite_index = sEsquerda_tocha_andando;
 }
+
+if (oPlayer.sprite_index == sDireita_curupira_ataque || oPlayer.sprite_index == sEsquerda_curupira_ataque) and
+place_meeting(x, y, oPlayer)
+{
+	vida -= 1;
+	if vida == 0
+	{
+		instance_destroy();
+	}
+}

@@ -1,3 +1,5 @@
+randomize()
+
 var randomX = irandom_range(0, room_width);
 var randomY = irandom_range(0, room_height);
 
