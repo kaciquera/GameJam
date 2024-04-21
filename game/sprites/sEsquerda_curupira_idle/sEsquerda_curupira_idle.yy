@@ -1,25 +1,30 @@
 {
   "$GMSprite":"",
   "%Name":"sEsquerda_curupira_idle",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":31,
-  "bbox_left":10,
-  "bbox_right":23,
-  "bbox_top":14,
+  "bbox_left":12,
+  "bbox_right":18,
+  "bbox_top":22,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bfbe3649-e2d7-4d40-a515-da6dd91dcb19","name":"bfbe3649-e2d7-4d40-a515-da6dd91dcb19","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f81d6137-af05-4b2c-aa4f-90a89e539cd0","name":"f81d6137-af05-4b2c-aa4f-90a89e539cd0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"70ccd904-c99c-44c3-92f8-c482baed8677","name":"70ccd904-c99c-44c3-92f8-c482baed8677","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e575f3a2-307d-4760-9c30-e1d9e23f9f3a","name":"e575f3a2-307d-4760-9c30-e1d9e23f9f3a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ef22f3e4-f750-4ec7-ad07-60d0c40c9bb4","name":"ef22f3e4-f750-4ec7-ad07-60d0c40c9bb4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"877ba2ca-a361-41c0-8c5c-7ab92917c40b","name":"877ba2ca-a361-41c0-8c5c-7ab92917c40b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"978c7827-833c-4bf9-8512-58984bf3e4f2","name":"978c7827-833c-4bf9-8512-58984bf3e4f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"1ecde435-7d98-4c2b-961b-94d729e40f15","blendMode":0,"displayName":"default","isLocked":false,"name":"1ecde435-7d98-4c2b-961b-94d729e40f15","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ea7cf288-6e24-40fc-8e0b-199e9a9cafb0","blendMode":0,"displayName":"default","isLocked":false,"name":"ea7cf288-6e24-40fc-8e0b-199e9a9cafb0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sEsquerda_curupira_idle",
   "nineSlice":null,
@@ -49,7 +54,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":6.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -59,7 +64,7 @@
     },
     "name":"sEsquerda_curupira_idle",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":10.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -69,8 +74,23 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bfbe3649-e2d7-4d40-a515-da6dd91dcb19","path":"sprites/sEsquerda_curupira_idle/sEsquerda_curupira_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"368fa417-b8fa-43ea-bfe1-0e74030f86eb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f81d6137-af05-4b2c-aa4f-90a89e539cd0","path":"sprites/sEsquerda_curupira_idle/sEsquerda_curupira_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7ecbaad5-0653-4bf7-929d-77183c8afdd2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"70ccd904-c99c-44c3-92f8-c482baed8677","path":"sprites/sEsquerda_curupira_idle/sEsquerda_curupira_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"58dde811-a336-48b8-9bc2-b012c2ed8626","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e575f3a2-307d-4760-9c30-e1d9e23f9f3a","path":"sprites/sEsquerda_curupira_idle/sEsquerda_curupira_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4a777ec4-7599-41f1-8b0c-f27051004aaa","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ef22f3e4-f750-4ec7-ad07-60d0c40c9bb4","path":"sprites/sEsquerda_curupira_idle/sEsquerda_curupira_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d057d034-0c71-4624-8186-b1eee41987e0","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"877ba2ca-a361-41c0-8c5c-7ab92917c40b","path":"sprites/sEsquerda_curupira_idle/sEsquerda_curupira_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"043d0d21-d690-4b72-b583-7bfa184a27a1","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"978c7827-833c-4bf9-8512-58984bf3e4f2","path":"sprites/sEsquerda_curupira_idle/sEsquerda_curupira_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"942f14d2-d41b-452c-8153-90e439e4b8ee","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

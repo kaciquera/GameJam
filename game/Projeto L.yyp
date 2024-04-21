@@ -60,6 +60,8 @@
     {"id":{"name":"DesvioDeObstaculos","path":"scripts/DesvioDeObstaculos/DesvioDeObstaculos.yy",},},
     {"id":{"name":"somCombate","path":"sounds/somCombate/somCombate.yy",},},
     {"id":{"name":"somMenu","path":"sounds/somMenu/somMenu.yy",},},
+    {"id":{"name":"sEsquerda_tocha_morte","path":"sprites/sEsquerda_tocha_morte/sEsquerda_tocha_morte.yy",},},
+    {"id":{"name":"sDireita_tocha_morte","path":"sprites/sDireita_tocha_morte/sDireita_tocha_morte.yy",},},
     {"id":{"name":"sArvore_pegando_fogo","path":"sprites/sArvore_pegando_fogo/sArvore_pegando_fogo.yy",},},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"sBalde","path":"sprites/sBalde/sBalde.yy",},},
