@@ -17,11 +17,11 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sons","order":3,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
-    {"name":"sHealthBar","order":17,"path":"folders/Sprites/sHealthBar.yy",},
     {"name":"sBarrier","order":7,"path":"folders/Sprites/sBarrier.yy",},
     {"name":"sCurupira","order":13,"path":"folders/Sprites/sCurupira.yy",},
     {"name":"sEnemys","order":11,"path":"folders/Sprites/sEnemys.yy",},
     {"name":"Homem de Tocha","order":1,"path":"folders/Sprites/sEnemys/Homem de Tocha.yy",},
+    {"name":"sHealthBar","order":17,"path":"folders/Sprites/sHealthBar.yy",},
     {"name":"sHouses","order":10,"path":"folders/Sprites/sHouses.yy",},
   ],
   "ResourceOrderSettings":[

@@ -10,7 +10,8 @@ if (place_meeting(x, y, other) && (sprite_index == sEsquerda_curupira_ataque || 
     }
     other.alarm[0] = 40;
     
-    // Pare o movimento do inimigo
     other.hspeed = 0;
     other.vspeed = 0;
+    
+    other.alive = false;
 }

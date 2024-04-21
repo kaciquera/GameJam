@@ -1,4 +1,4 @@
-hp = 50;
+hp = 1750;
 hp_max = hp;
 
 healthbar_width = 100

@@ -1,25 +1,9 @@
-var ataque_em_progresso = false;
+morte_reproduzida = false;
 
-if (!ataque_em_progresso)
+if (place_meeting(x, y, oTree))
 {
-    if (place_meeting(x, y, oTree))
-    {
-        oTree.hp -= 1;
-        ataque_em_progresso = true;
-        if (x < room_width/2)
-        {
-            x -= 10;
-            sprite_index = sDireita_tocha_ataque;
-        }
-        else
-        {
-            x += 10;
-            sprite_index = sEsquerda_tocha_ataque;
-        }
-    }
-}
-else
-{
+    oTree.hp -= 1;
+    
     if (x < room_width/2)
     {
         sprite_index = sDireita_tocha_ataque;
@@ -29,13 +13,9 @@ else
         sprite_index = sEsquerda_tocha_ataque;
     }
 }
-
-if (!place_meeting(x, y, oTree))
+else
 {
-    ataque_em_progresso = false;
-}
-
-    if (sprite_index == sDireita_tocha_ataque || sprite_index == sEsquerda_tocha_ataque)
+    if (!morte_reproduzida)
     {
         if (x < room_width/2)
         {
@@ -46,3 +26,10 @@ if (!place_meeting(x, y, oTree))
             sprite_index = sEsquerda_tocha_andando;
         }
     }
+}
+
+if (!alive)
+{
+    sprite_index = sDireita_tocha_morte;
+    morte_reproduzida = true;
+}
