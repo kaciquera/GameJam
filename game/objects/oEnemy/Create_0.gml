@@ -1,8 +1,10 @@
-if x < room_width/2
+if (x >= room_width/2)
 {
-	sprite_index = sDireita_tocha_andando;
+    move_towards_point(oTree.x, oTree.y, 0.5);
+    sprite_index = sEsquerda_tocha_andando;
 }
 else
-{	
-	sprite_index = sEsquerda_tocha_andando;
+{   
+    move_towards_point(oTree.x, oTree.y, 0.5);
+    sprite_index = sDireita_tocha_andando;
 }
