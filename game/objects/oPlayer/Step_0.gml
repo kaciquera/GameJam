@@ -80,7 +80,7 @@ else if (ataque)
 		sprite_index = sDireita_curupira_ataque;
 	}
 }
-else
+else 
 {
 	if sprite_index == sEsquerda_curupira_andando or sprite_index == sEsquerda_curupira_idle or sprite_index == sEsquerda_curupira_ataque
 	{
