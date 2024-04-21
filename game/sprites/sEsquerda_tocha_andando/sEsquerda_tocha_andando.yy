@@ -33,7 +33,7 @@
   "origin":4,
   "parent":{
     "name":"Homem de Tocha",
-    "path":"folders/Sprites/Enemys/Homem de Tocha.yy",
+    "path":"folders/Sprites/sEnemys/Homem de Tocha.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
