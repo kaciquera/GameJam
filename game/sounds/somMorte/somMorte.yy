@@ -12,8 +12,8 @@
   "duration":195.9705,
   "name":"somMorte",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"musicas",
+    "path":"folders/Sons/musicas.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"somMorte.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.15,
 }

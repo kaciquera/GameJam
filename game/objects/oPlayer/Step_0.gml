@@ -11,7 +11,6 @@ var plantar = keyboard_check(ord("G")) || mouse_check_button(mb_right);
 var velocidadeDiagonal = velocidade / sqrt(2); 
 var buraco_colidido = instance_place(x, y, oBuraco);
 
-// Plantar uma nova árvore
 if (buraco_colidido != noone) 
 {
     if (plantar) 
@@ -25,6 +24,8 @@ if (buraco_colidido != noone)
         instance_destroy(buraco_colidido); 
     }
 }
+
+
 
 if (cima && esquerda) 
 {
@@ -96,6 +97,7 @@ else if (atacar)
 	{
 		sprite_index = sDireita_curupira_ataque;
 	}
+	audio_play_sound(Bate_Lanca, 0, false)
 }
 else 
 {

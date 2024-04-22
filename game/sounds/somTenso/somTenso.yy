@@ -12,8 +12,8 @@
   "duration":168.41133,
   "name":"somTenso",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"musicas",
+    "path":"folders/Sons/musicas.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"somTenso.mp3",
   "type":0,
-  "volume":0.5,
+  "volume":0.15,
 }

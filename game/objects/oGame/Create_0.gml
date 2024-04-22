@@ -4,7 +4,7 @@ window_set_size(1280, 720);
 // Centralizar a janela
 window_center();
 
-//audio_play_sound(somCombate, 0, true);
+alarm[0] = 20
 
 // reiniciar o jogo
 if keyboard_check(ord("C")) 

@@ -12,8 +12,8 @@
   "duration":42.605625,
   "name":"somMenu",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"musicas",
+    "path":"folders/Sons/musicas.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"somMenu.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.15,
 }

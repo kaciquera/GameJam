@@ -8,6 +8,6 @@ if (tempo_sem_ataque == 0) {
 
 if oTree.hp = 0
 {
-	room_goto(Derrota);
-	audio_play_sound(somMorte,0,true)
+	audio_stop_sound(somCombate)
+	room_goto(TelaDerrota);
 }

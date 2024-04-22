@@ -3,7 +3,7 @@
   "%Name":"sTree",
   "bboxMode":2,
   "bbox_bottom":31,
-  "bbox_left":13,
+  "bbox_left":12,
   "bbox_right":19,
   "bbox_top":26,
   "collisionKind":1,
