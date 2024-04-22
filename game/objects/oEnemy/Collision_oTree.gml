@@ -1,9 +1,12 @@
-if (place_meeting(x, y, oTree)) and (x < room_width/2)
+if (place_meeting(x, y, oTree)) 
 {
-	sprite_index = sDireita_tocha_ataque;
-}
-else if (place_meeting(x, y, oTree)) and (x > room_width/2)
-{
-	sprite_index = sEsquerda_tocha_ataque;
-}
+    if (place_meeting(x + hspeed, y, oTree)) 
+    {
+        hspeed = 0;
+    }
 
+    if (place_meeting(x, y + vspeed, oTree)) 
+    {
+        vspeed = 0; 
+    }
+}
