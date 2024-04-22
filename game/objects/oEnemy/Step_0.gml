@@ -1,5 +1,3 @@
-morte_reproduzida = false;
-
 if (place_meeting(x, y, oTree))
 {
     oTree.hp -= 1;
@@ -12,6 +10,9 @@ if (place_meeting(x, y, oTree))
     {
         sprite_index = sEsquerda_tocha_ataque;
     }
+    
+    // Defina inimigo_atacando como verdadeiro enquanto ataca
+    oTree.inimigo_atacando = true;
 }
 else
 {
@@ -26,10 +27,21 @@ else
             sprite_index = sEsquerda_tocha_andando;
         }
     }
+    
+    // Defina inimigo_atacando como falso enquanto não ataca
+    oTree.inimigo_atacando = false;
 }
 
+// Verifique se o inimigo está morto e altere a sprite correspondente
 if (!alive)
 {
-    sprite_index = sDireita_tocha_morte;
+    if (x < room_width/2)
+    {
+        sprite_index = sDireita_tocha_morte;
+    }
+    else
+    {
+        sprite_index = sEsquerda_tocha_morte;
+    }
     morte_reproduzida = true;
 }

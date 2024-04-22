@@ -11,4 +11,3 @@ if !(randomX > 0 and randomX < room_width) and (randomY > 0 and randomY < room_h
 		instance_create_depth(randomX, randomY, 0, oEnemy);
 	}
 }
-
