@@ -21,6 +21,7 @@ if (buraco_colidido != noone)
             image_xscale = 0.5; 
             image_yscale = 0.5; 
         }
+		audio_play_sound(Arvore_Crescendo,0,false)
         instance_destroy(buraco_colidido); 
     }
 }

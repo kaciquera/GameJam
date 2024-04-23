@@ -8,8 +8,8 @@
   "name":"oDerrota",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"oMenu",
+    "path":"folders/Objetos/oMenu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

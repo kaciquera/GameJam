@@ -6,7 +6,7 @@
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "bitRate":512,
   "compression":0,
   "conversionMode":0,
   "duration":1.016,
@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Bate_Lanca.mp3",
-  "type":0,
-  "volume":0.07,
+  "type":1,
+  "volume":0.1,
 }

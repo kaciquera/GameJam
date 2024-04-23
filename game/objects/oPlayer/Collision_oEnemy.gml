@@ -8,8 +8,6 @@ if (place_meeting(x, y, other) && (sprite_index == sEsquerda_curupira_ataque || 
     {
         other.sprite_index = sEsquerda_tocha_morte;
     }
-	audio_stop_sound(Bate_Lanca)
-	audio_play_sound(Dano_Inimigo,0,false)
     other.alarm[0] = 40;
     
     other.hspeed = 0;

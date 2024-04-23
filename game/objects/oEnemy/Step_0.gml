@@ -1,3 +1,8 @@
+if oTimer.showTime <= 60
+{
+	oGame.enemySpeed = 2
+}
+
 if (place_meeting(x, y, oTree))
 {
     oTree.hp -= 1;
@@ -40,6 +45,5 @@ if (!alive)
     {
         sprite_index = sEsquerda_tocha_morte;
     }
-	audio_play_sound(Dano_Inimigo, 0, false)
     morte_reproduzida = true;
 }
